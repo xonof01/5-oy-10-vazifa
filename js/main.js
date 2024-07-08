@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const cardId = this.getAttribute("data-id");
             if (cardId) {
               window.location.assign(
-                `http://127.0.0.1:5500/pages/details.html?id=${cardId}`
+                `https://5-oy-10-vazifa.vercel.app/pages/details.html?id=${cardId}`
               );
             }
           });
